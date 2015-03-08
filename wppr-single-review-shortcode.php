@@ -4,7 +4,7 @@
 #     Plugin URI: https://themeisle.com/plugins/WPPR-Single-Review-Shortcode/
 #     Description: Using the P_REVIEW shortcode display the review box where you want, in the post/page that you want as well as displaying multiple review boxes.
 #     Author: Themeisle
-#     Version: 1.0.1
+#     Version: 1.0.2
 #     Author URI: https://themeisle.com
 #	  Text Domain: cwppos
 #	  Domain Path: /languages

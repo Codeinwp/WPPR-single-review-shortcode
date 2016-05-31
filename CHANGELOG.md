@@ -1,4 +1,8 @@
 
+### 1.0.6 - 31/05/2016
+**Changes:** 
+- Added TGM support for the free plugin
+
 ### 1.0.5 - 16/05/2016
 **Changes:** 
 - Fixed review box position bug

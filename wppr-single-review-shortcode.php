@@ -19,21 +19,7 @@ function wppr_srs_cwp_get_rating( $atts ) {
 			'post_id' =>''
 		), $atts );
 
-		if ($a['visual']=="no"&&$a['post_id']!="") {
-			$r = cwppos_calc_overall_rating($a['post_id']);
-			return round($r['overall']/10);
-		}
-
-		if ($a['visual']=="yes"&&$a['post_id']!="") {
-			$r = cwppos_calc_overall_rating($a['post_id']);
-			return '<div class="cwp-review-chart cwp-chart-embed"><div class="cwp-review-percentage" data-percent="'.$r['overall'].'"><span  class="cwp-review-rating">'.$r['overall'].'</span></div></div>';
-		}
-
-		if ($a['visual']=="full")
-			return cwppos_show_review($a['post_id']);
-
-
-
+        return cwppos_show_review($a['post_id'], $a['visual']);
 }
 
 if (!shortcode_exists('P_REVIEW' )) {

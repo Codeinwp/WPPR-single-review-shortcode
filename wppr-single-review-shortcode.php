@@ -19,7 +19,7 @@ function wppr_srs_cwp_get_rating( $atts ) {
 			'post_id' =>''
 		), $atts );
 
-		if( version_compare( WPPR_LITE_VERSION, "2.9.2" )  == -1  ) {
+		if( version_compare( WPPR_LITE_VERSION, "2.9.2" )  > -1  ) {
 			return cwppos_show_review($a['post_id'], $a['visual']);
 		}else{
 
